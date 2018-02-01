@@ -1,1 +1,1 @@
-# docker-eset-era-console
+# ESET Remote Administrator Console

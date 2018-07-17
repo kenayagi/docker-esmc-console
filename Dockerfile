@@ -1,4 +1,4 @@
-FROM tomcat:8.0.49-jre7
+FROM tomcat:8.0.53-jre7
 
 ENV ERA_SRV_HOSTNAME $ERA_SRV_HOSTNAME
 

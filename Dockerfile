@@ -13,6 +13,6 @@ RUN mv /tmp/eraweb /usr/local/tomcat/webapps/era
 ADD run.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/run.sh
 
-EXPOSE 8080
+EXPOSE 80 8080
 
 CMD ["/bin/bash","/usr/local/bin/run.sh"]

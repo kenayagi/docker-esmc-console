@@ -8,7 +8,7 @@ RUN mkdir /tmp/eraweb
 RUN unzip -d /tmp/eraweb /tmp/era.war
 RUN rm /tmp/era.war
 
-RUN rm -rf /usr/local/tomcat/webapps/
+RUN rm -rf /usr/local/tomcat/webapps/*
 
 RUN mv /tmp/eraweb /usr/local/tomcat/webapps/era
 

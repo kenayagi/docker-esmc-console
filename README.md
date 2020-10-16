@@ -1,1 +1,3 @@
-# ESET Remote Administrator Console
+# ESET Security Management Center
+
+## Console

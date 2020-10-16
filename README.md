@@ -1,3 +1,3 @@
 # ESET Security Management Center
 
-## Console
+## Console 7.2.230.0

@@ -2,7 +2,7 @@ FROM tomcat:9-jre8-alpine
 
 ENV ERA_SRV_HOSTNAME $ERA_SRV_HOSTNAME
 
-ADD https://download.eset.com/com/eset/apps/business/era/webconsole/v8/8.0.175.0/era.war /tmp/era.war
+ADD https://download.eset.com/com/eset/apps/business/era/webconsole/v9/9.1.292.0/era.war /tmp/era.war
 
 RUN mkdir /tmp/eraweb
 RUN unzip -d /tmp/eraweb /tmp/era.war
